@@ -1,15 +1,28 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +35,67 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.intro {
+  height: 600px;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.intro h1 {
+  padding-top: 250px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+article p {
+  padding-top: 50px;
+  padding-left: 7%;
+  padding-right: 7%;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.fastInfoImg {
+  width: 500px;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+hr {
+  width: 85%;
+  height: 3px;
+  background-color: black;
+}
+
+li {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+ul,
+ol {
+  margin-left: 4%;
+  padding-bottom: 20px;
+}
+
+#direccion,
+.ingredientes {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
